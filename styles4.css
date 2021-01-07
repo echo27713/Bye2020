@@ -8,12 +8,12 @@
   src: local(Capitolium2-Regular),url(../fonts/Capitolium2-Regular.woff2) format('woff2');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Arita-buri-SemiBold';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}
+} */
 * {
   box-sizing: border-box;
 }
@@ -25,9 +25,18 @@
    line-height: 1.2;
 }
 
-.bodyTextArita {
+/* .bodyTextArita {
    font-family: 'Arita-buri-SemiBold';
    font-size: 1.2em;
+   color: slateblue;
+   line-height: 1.5;
+   padding: 0 16px;
+} */
+
+.bodyTextNoto {
+   font-family: 'Noto Serif KR';
+   font-size: 1.2em;
+   font-weight: 500;
    color: slateblue;
    line-height: 1.5;
    padding: 0 16px;

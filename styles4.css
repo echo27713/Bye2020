@@ -18,6 +18,10 @@
   box-sizing: border-box;
 }
 
+/* body {
+  overflow-x: hidden;
+} */
+
 .bodyText {
    font-family: bodyText;
    font-size: 1em;
@@ -27,7 +31,7 @@
 
 /* .bodyTextArita {
    font-family: 'Arita-buri-SemiBold';
-   font-size: 1.2em;
+   font-size: 1.4em;
    color: slateblue;
    line-height: 1.5;
    padding: 0 16px;
@@ -91,6 +95,10 @@ div.ex1 {
   margin: auto;
 }
 
+.clmntest {
+  column-count: 3;
+  column-gap: 20px;
+}
 
 /* Float four columns side by side */
 .column {
@@ -129,6 +137,7 @@ div.ex1 {
   transition: 0.3s;
   width: 100%;
   border-radius: 2%;
+  margin-bottom: 20px;
 }
 
 .card:hover {

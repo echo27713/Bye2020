@@ -18,9 +18,9 @@
   box-sizing: border-box;
 }
 
-/* html, body {
+html, body {
   overflow-x: hidden;
-} */
+}
 
 /* .bodyTextArita {
    font-family: 'Arita-buri-SemiBold';

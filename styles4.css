@@ -18,9 +18,9 @@
   box-sizing: border-box;
 }
 
-html, body {
+/* html, body {
   overflow-x: hidden;
-}
+} */
 
 /* .bodyTextArita {
    font-family: 'Arita-buri-SemiBold';
@@ -36,13 +36,13 @@ html, body {
    line-height: 1.0;
    padding: 0;
 }
-.bodyTextNoto {
+p.bodyTextNoto {
    font-family: 'Noto Serif KR';
    font-size: 1.2em;
    font-weight: 500;
    color: slateblue;
    line-height: 1.5;
-   padding: 0 16px;
+   padding: 0 60px;
 }
 
 .headline {
@@ -86,11 +86,11 @@ li a:hover:not(.active) {
 }
 
 .active {
-  color: tomato;
+  color: slateblue;
 }
 
 div.ex1 {
-  width: 600px;
+  width: 800px;
   margin: auto;
 }
 
@@ -99,7 +99,7 @@ div.ex1 {
 .column {
   float: left;
   width: 50%;
-  padding: 10px 20px;
+  padding: 8px;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -113,16 +113,34 @@ div.ex1 {
 }
 
 /* Responsive columns */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 6px;
+  }
+  div.ex1 {
+    width: 100%;
+  }
+  p.bodyTextNoto {
+     padding: 0 24px;
+  }
+}
+/* Responsive columns */
+@media screen and (max-width: 414px) {
   .column {
     width: 100%;
     display: block;
-    margin-bottom: 20px;
+    color: black;
+    margin-bottom: 10px;
     padding: 0;
   }
   div.ex1 {
     width: 100%;
-    /* margin: auto; */
+  }
+  p.bodyTextNoto {
+     padding: 4px;
   }
 }
 
@@ -147,6 +165,11 @@ div.ex1 {
 
 p {
   margin-bottom: 18px;
+}
+
+p a {
+  color: DodgerBlue;
+  text-decoration: underline;
 }
 
 img {

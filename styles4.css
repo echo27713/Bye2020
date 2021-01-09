@@ -14,12 +14,16 @@
   font-weight: normal;
   font-style: normal;
 } */
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 html, body {
+  box-sizing: border-box;
   overflow-x: hidden;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /* .bodyTextArita {
